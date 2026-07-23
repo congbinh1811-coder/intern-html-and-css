@@ -1,0 +1,46 @@
+body,
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  padding: 15px 40px;
+  border-radius: 35px;
+  border-color: bisque;
+  background-color: bisque;
+}
+
+.btn {
+  font-size: 23px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: aquamarine;
+  border-color: aquamarine;
+  color: grey;
+}
+
+.btn {
+  position: relative;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background: cyan;
+  transition: 0.3s;
+}
+
+.btn:hover::before {
+    width: 100%;
+}
