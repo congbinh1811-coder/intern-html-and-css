@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  padding: 40px 60px;
+  border-radius: 55px;
+  background-color: bisque;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial;
+  text-decoration: line-through;
+}

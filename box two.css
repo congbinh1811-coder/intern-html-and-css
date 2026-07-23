@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box-two {
+  border: solid 3px black;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.box-two {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-two {
+  background-color: bisque;
+  color: black;
+}
+
+.box-two:hover {
+  background-color: grey;
+  color: white;
+}
