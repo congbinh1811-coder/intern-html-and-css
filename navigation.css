@@ -1,0 +1,38 @@
+body,
+html {
+  margin: 0;
+}
+
+.box-one ul {
+  list-style-type: none;
+  background-color: rgb(112, 110, 110);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.box-one ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.box-one ul li a:hover {
+  background-color: antiquewhite;
+  color: black;
+  border: solid 2px black;
+}
+
+.box-one li {
+  float: left;
+}
+
+.box-one li {
+  padding: 4px 7px;
+}
